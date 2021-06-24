@@ -4,12 +4,16 @@
 
 int main(void)
 // TODO: Prompt for start size
+
 {
     int start;
+    
     do
+    
     {
         start = get_int("star population: ");
     }
+    
     while (start < 9);
 
 // TODO: Prompt for end size
